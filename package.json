@@ -17,7 +17,7 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-coventional"
+      "@commitlint/config-conventional"
     ]
   },
   "husky": {
