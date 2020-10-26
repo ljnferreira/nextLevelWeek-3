@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ljnferreira/nextLevelWeek-3.git"
+    "url": "git@github.com:ljnferreira/nextLevelWeek-3.git"
   },
   "scripts": {
     "release": "semantic-release --no-ci"
