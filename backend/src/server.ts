@@ -14,16 +14,4 @@ app.get('/users/:id', (request, response)=>{
   })
 })
 
-app.post('/users', (request, response)=>{
-  return response.json({message: 'post'})
-})
-
-app.put('/users', (request, response)=>{
-  return response.json({message: 'put'})
-})
-
-app.delete('/users', (request, response)=>{
-  return response.json({message: 'delete'})
-})
-
 app.listen(3333);
