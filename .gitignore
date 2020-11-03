@@ -105,3 +105,6 @@ dist
 
 #Database File
 *.sqlite
+
+#Uploaded files
+**/uploads/*
