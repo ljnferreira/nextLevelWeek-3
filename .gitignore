@@ -111,3 +111,6 @@ dist
 
 #Example files
 !**/uploads/example.jpg
+
+#workspace files
+workspace.code-workspace
