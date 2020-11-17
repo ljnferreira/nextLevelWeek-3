@@ -4,8 +4,6 @@ import { FiPlus, FiArrowRight } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import Leaflet from 'leaflet';
 
-import 'leaflet/dist/leaflet.css';
-
 import '../../styles/pages/orphanagesMap.css'
 
 import mapMarkerImg from '../../images/map-marker.svg';
@@ -58,14 +56,14 @@ const OrphanagesMap: React.FC = () => {
             className='mapPopup'
           >
             Lar dos idosos
-            <Link to="">
+            <Link to="/orphanages/1">
               <FiArrowRight size={24} color='#FFF'/>
             </Link>
           </Popup>
         </Marker>
       </Map>
 
-      <Link to="" className="create-orphanage" >
+      <Link to="/orphanages/create" className="create-orphanage" >
         <FiPlus size={32} color="#fff"/>
       </Link>
     </div>
